@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#contain {
+    width: 1450px;
+    height: auto;
+    background-color: #161616;    
+    margin: auto;
+}
+
+/* BANNER CONTAINER */
+#contain #ban {
+    text-align: center;
+    height: 252px;
+}
+
+/* BODY CONTAINER */
+
+#contain #body {
+    height: 1100px;
+    background-color: #161616;
+}
+
+
+/* BODY NAVIGATION PARTS */
+
+#contain #body #Nav {
+    text-align: center;
+    margin-right: 1%;
+    background-color: #3b3a3b;
+    min-height: 100%;
+    height: auto;
+    width: 10%;
+    float: left;
+}
+
+#contain #body #Nav ul {
+    list-style: none;
+}
+
+#contain #body #Nav ul li {
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+#contain #body #Nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#contain #body #Nav ul li a:visited {
+    background-color: white;
+}
+
+
+#contain #body #Nav ul li a:hover {
+    background-color: darkred;
+    text-decoration: underline;
+}
+
+
+
+/* BODY MAIN CONTENT PARTS */
+
+#contain #body #cont {
+    margin-top: 2%;
+    margin-right: 2%;
+    background-color: #3b3a3b;
+    height: 1050px;
+    width: 85%;
+    float: right;
+    color: white;
+    padding-left: 10px;
+}
+
+#contain #body #cont #setIMG {
+    text-align: center;
+}
+
+#contain #body #cont #setIMG img {
+    width: 500px;
+}
+
+#contain #body #cont h2 {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+#contain #body #cont h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+
+#contain #body #cont p {
+    padding-top: 10px;
+}
+
+
+
+
+/* MAIN CONTENT GREET PARTS */
+
+#contain #body #cont #greet {
+    text-align: center;
+}
+
+#contain #body #cont #greet h3 {
+    font-size: 25px;
+}
+
+#contain #body #cont #greet p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+/* FOOTER PARTS */
+
+#contain #foot {
+    background-color: #27002d;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* CATEGORIES PARTS */
+
+#contain #body #cont table tr {
+    margin: 120px;
+}
+
+#contain #body #cont table tr td {
+    padding: 2px;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#contain #body #cont table tr h4 {
+    background-color: black;
+}
+
+#contain #body #cont table tr td img{
+    padding: 2px;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+
+
+/* Borders for weap */
+
+#contain #body #cont table tr td #RubyBord {
+    border: none;
+    height: 2px;
+    background-color: crimson;
+}
+
+#contain #body #cont table tr td #WeissBord {
+    border: none;
+    height: 2px;
+    background-color: lightblue;
+}
+
+#contain #body #cont table tr td #BlakeBord {
+    border: none;
+    height: 2px;
+    background-color: darkgray;
+}
+
+
+#contain #body #cont table tr td #YangBord {
+    border: none;
+    height: 2px;
+    background-color: gold;
+}
+
+
+/* MCHAR PARTS */
+#contain #body #cont #mainchar table tr td {
+    padding: 2px;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#contain #body #cont #mainchar table tr h4 {
+    background-color: black;
+}
+
+#contain #body #cont #mainchar table tr td #RubyBord {
+    border: none;
+    height: 2px;
+    background-color: crimson;
+}
+
+#contain #body #cont #mainchar table tr td #WeissBord {
+    border: none;
+    height: 2px;
+    background-color: lightblue;
+}
+
+#contain #body #cont #mainchar table tr td #BlakeBord {
+    border: none;
+    height: 2px;
+    background-color: darkgray;
+}
+
+
+#contain #body #cont #mainchar table tr td #YangBord {
+    border: none;
+    height: 2px;
+    background-color: gold;
+}
